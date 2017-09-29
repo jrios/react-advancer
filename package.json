@@ -1,0 +1,36 @@
+{
+  "name": "react-advancer",
+  "version": "1.0.0",
+  "description": "A component that manages steps for advancing through a step-based workflow",
+  "main": "dist/index.js",
+  "file": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest src",
+    "build": "babel src -d dist --ignore *.spec.js",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "repository": "https://github.com/jrios/react-advancer.git",
+  "keywords": [
+    "react",
+    "workflow"
+  ],
+  "author": "Jake Rios",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "jest": "^21.1.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0"
+  }
+}

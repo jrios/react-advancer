@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render receives the getSteps function passed to it 1`] = `<div />`;
